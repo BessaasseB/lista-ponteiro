@@ -19,7 +19,7 @@ int main(void){
 
     pVetor = &vetor;
 
-    printaVetor(pVetor, 5);
+    printaVetor(pVetor, sizeof(vetor)/sizeof(vetor[0]));
 
 
     return 0;
